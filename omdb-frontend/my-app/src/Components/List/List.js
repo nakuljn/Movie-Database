@@ -3,7 +3,7 @@ import React from 'react';
 export default function List(props) {
   const elements = props.elements || []; // Array of movies
   const component = props.component; // Card component
-
+  //console.log(elements);
   const createReactElement = (element) => {
     /**
      * This is a specific use case where you have to use the compiled version directly

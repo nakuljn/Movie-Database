@@ -15,8 +15,8 @@ function App(){
     <div>
        <Router>
         <Switch>
-          <Route path="/" component={SearchPage} />
-          <Route path="/details/tt2338096" component={DetailsPage} />
+          <Route path="/search" component={SearchPage} />
+          <Route path="/details/:imdbID" component={DetailsPage} /> 
         </Switch>
       </Router>
     </div>

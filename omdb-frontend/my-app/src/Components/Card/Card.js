@@ -1,6 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
+
 /**
  * useState(), useHistory() => Both are react hooks.
  * React hooks help to change state.
@@ -22,8 +23,10 @@ const Card = React.memo(props => {
    *  imdbID: String
    * }
    */
+  
   const movie = props.movie;
   const history = useHistory();
+
 
   const viewButtonClick = () => {
     history.push(`/details/${movie.imdbID}`);

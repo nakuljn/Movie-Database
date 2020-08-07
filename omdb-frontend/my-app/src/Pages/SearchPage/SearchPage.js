@@ -12,6 +12,7 @@ export default function SearchPage() {
   const [searchResult, setSearchResult] = useState([]);
 
   const onSubmitSuccess = (res) => {
+    //console.log(res);
     // Data validation before setting searchResult
     if (res && res.data && res.data.Search instanceof Array) {
       setSearchResult(res.data.Search);
