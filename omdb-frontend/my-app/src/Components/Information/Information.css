@@ -1,0 +1,11 @@
+.body{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.image{
+    padding-left: 10px;
+    padding-right: 15px;
+    float: left;
+    height: fit-content;
+}

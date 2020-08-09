@@ -8,10 +8,16 @@ export default function Search(props) {
     props.onSubmit(value)
   };
 
+  const keyPress = (e) => {
+    if(e.keyCode === 13){
+      props.onSubmit(value)
+    }
+  };
+
   return (
     <div className="background">
-      <input className="search clear-margin-top" type="text" value={value} onChange={handleChange} />
-      <button className="btn btn-success clear-margin-top" onClick={handleSubmit}>Search</button>
+      <input className="search clear-margin-top" type="text" value={value} onChange={handleChange} onKeyDown={keyPress} />
+      <button className="btn btn-success clear-margin-top" onClick={handleSubmit} >Search</button>
     </div>
   )
 }
