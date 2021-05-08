@@ -7,13 +7,11 @@ A Dynamic website, which shows information about any movie, by typing the name o
 3. Backend: express.js
 
 # How to run 
-Open 2 terminals. In 1st terminal execute the following commands
-1. cd omdb-backend
-2. npm start
-3. n second terminal execute the following commands
-1. cd omdb-frontend/my-app
-2. npm build
-3. npm start
-
-
-
+Use any full featured IDE, like VSCode. open 2 terminals. Perform the following steps  
+1. In 1st Terminal run the following commands:  
+  a. cd omdb-backend  
+  b. npm start  
+2. In second terminal run the following commands:  
+  a. cd omdb-frontend/my-app  
+  b. npm build  
+  c. npm start
